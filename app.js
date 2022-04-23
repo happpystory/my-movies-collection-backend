@@ -6,7 +6,7 @@ const logger = require('morgan');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const indexRouter = require('./index');
+const indexRouter = require('./routes/index');
 const favoritesRouter = require('./routes/favorites');
 const ratingsRouter = require('./routes/ratings');
 const notesRouter = require('./routes/notes');
